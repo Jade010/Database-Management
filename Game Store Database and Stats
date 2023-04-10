@@ -1,4 +1,4 @@
--- Create a game store database
+# In this project I created a game store database and filled it with data.
 
 CREATE TABLE game_store (id INTEGER PRIMARY KEY, game_name TEXT, rating INTEGER, condition Text, price INTEGER);
 
@@ -18,16 +18,16 @@ INSERT INTO game_store VALUES (13, "LoZ: Skyward Sword", 5, "New", 60);
 INSERT INTO game_store VALUES (14, "LoZ: Spirit Tracks", 3, "Pre-Owned", 20);
 INSERT INTO game_store VALUES (15, "LoZ: Breath of the Wild", 4.5, "Digital", 64);
 
--- display the database ordered by price
+# displays the database ordered by price
 SELECT * FROM game_store 
 ORDER BY price desc;
 
--- what is the avg price of items in the bu
+# what is the avg price of items that are Digital?
 SELECT AVG(price) "avg digital price"
 FROM game_store 
 WHERE condition = 'Digital';
 
--- what are the highest rated game
+# what are the highest rated games and their price?
 SELECT game_name, price
 FROM game_store 
 WHERE rating = 5 
