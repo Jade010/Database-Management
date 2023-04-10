@@ -34,6 +34,14 @@ FROM BIT_DB.JanSales Jan
 GROUP BY product, price 
 ORDER BY price ASC LIMIT 1;
 
+
+-- List all the products sold in Los Angeles in February, and include how many of each were sold.
+
+SELECT Product, SUM(quantity)
+FROM BIT_DB.FebSales
+WHERE location like '%Los Angeles%'
+GROUP BY Product;
+
 SELECT product, min(price) 
 FROM BIT_DB.JanSales Jan 
 GROUP BY product, price 
