@@ -1,3 +1,3 @@
 # Jade Aidoghie's SQL Portfolio
 
-## Welcome to my SQL Portfolio! This code repository contains examples of SQL i've written. Feel free to take a look and reach out via email if you have any questions: jade_aidoghie0@yahoo.com
+## This repository contains a collection of my SQL projects, showcasing my abilities in data manipulation, querying, database management, and optimization using SQL. The projects range from simple queries to more complex use cases involving stored procedures, triggers, transactions, and database optimization techniques.
