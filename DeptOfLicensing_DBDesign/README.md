@@ -1,4 +1,4 @@
-# Database Design Project
+# Department of Licensing Database Design
 
 This is a small database design project I created while studying at Washington State University. This project showcases my skills in designing an Entity-Relationship (ER) diagram based on company needs, translating this to a relational database (Postgres), and database schema refinement such as normalization and physical design considerations. The project is meant to simulates a real-world scenario where I conceptualized and developed a database for the Department of Licensing. 
 
