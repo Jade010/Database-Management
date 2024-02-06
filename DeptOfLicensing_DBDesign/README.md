@@ -5,10 +5,10 @@ This project showcases my comprehensive skills in database design, data architec
 ### File Structure and Contents
 1. DesignInstructions.md
     - Outlines the intital design concepts and considerations for the faux Department of Licensing database.
-2. ERDiagram_LicensingOffice.pdf
+2. ELD_ERDesign.pdf
     - Contains the ER diagram developed based on the initial design concepts. This diagram details all relevant entities, their attributes,
     - keys, relationships, key constraints, and participations constraints.
-3. RelationalMapping.sql
+3. LD_RelationalMapping.sql
     - Translates the ER diagram into a realtional model and includes SQL scripts for creating the database. This file demonstrates
     - the practical application of ER-to-relational mapping techniques and the actual creation of the database in SQL.
 4. Security.sql
