@@ -1,4 +1,6 @@
-# Complex Queries Projects
+# Complex Queries Portfolio
+
+## Overview
 This folder consists of multiple files showcasing my knowledge on complex querying. Folders contain full projects related to querying.
 
 ## SQL Platforms Used
