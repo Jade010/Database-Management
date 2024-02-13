@@ -1,0 +1,9 @@
+Here is the background needed to create a database for an online education platform. This platform hosts a variety of certificates that students can earn by taking an exam. Resources such as courses taught by instructors are offered through a subscription.
+
+1. Users are identified by their User ID. For each user, their username, email, and password must be recorded. Users can be students or instructors.
+2. Instructors teach various courses on the platform. For each instructor, their years of experience and role must be recorded.
+3. Courses are identified by their CourseID. For each course, the title, description, and last update must be recorded. Courses contain multiple modules. Modules are identified by their module ID but modules only exist within the context of a course.
+4. Subscriptions are identified by their SubscriptionID. For each subscription, the start date, end date, and monthly fee must be recorded. 
+5. Students must have an active subscription in order to access any of the courses on the platform. The subscription must be active at the same time as enrollment into a course. Students that do have an active subscription can enroll into many courses and courses can have many students enrolled. 
+6. Exams are identified by their ExamID. For each exam, the exam name and price must be recorded. Students are not required to take courses but they can help to pass exams. Students can take an exam in order to earn a certificate. Students must get a score greater than 80% in order to pass the exam and earn a certificate.
+7. Certificates are identified by their unique code or ID. For each certificate, the certificate name, issue date, and expiration date must be recorded. Certificates can be awarded to students if they have passed an exam. Awards must be identified and date recorded.
