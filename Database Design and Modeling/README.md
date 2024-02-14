@@ -8,3 +8,5 @@ This folder will contain various database design and modeling projects I have co
      * This is one of my first database design projects for a Department of Licensing scenario.
 2. [Jade's Online Certificate Programs Database Design](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/JadesOnlineEducationProject)
      * This project creates a database for an online education platform where subscriptions are offered to learn various topics through instructr led courses. Students can earn a certificate by paying for the exam and passing.
+3. [1st HW Assignment WSU](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/FirstProject)
+     * This assignment comes from my very first introductory SQL course at WSU. It was a very simple project where we practiced creating tables & inserting into these tables in SQL as well as creating data models in Microsoft Visio.
