@@ -11,7 +11,7 @@ The goal of this assignment was to draw data models using visio, turn this into 
 ## Skills
 - Data modeling
 - Visio
-- MySQL
+- SSMS
 - Relational Models
 - CREATE TABLE () and INSERT INTO () functions
 - Constraints
