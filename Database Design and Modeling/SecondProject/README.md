@@ -12,9 +12,9 @@ The goal of this assignment was to draw data models using visio, turn this into 
 
 
 ## File Structure and Contents
-1. [DataModel.pdf](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/FirstProject/DataModel.pdf)
+1. [VisioModel.pdf](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/SecondProject/VisioModel.pdf)
     - Contains the Entity-Relationship (ER) diagram created in Visio based on the instructions above. This diagram details all relevant entities, their attributes, and constraints.
-3. [RelationalModels.sql](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/FirstProject/RelationalModels.sql)
+3. [ER2Rel.sql](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/SecondProject/ER2Rel.sql)
     - Translates the Entity-Relationship (ER) diagram into a relational model and includes SQL scripts for creating the database. This also includes the code used to insert 3 rows into each example.
 
 ## Skills
