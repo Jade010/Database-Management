@@ -1,4 +1,5 @@
--- This is a project that i created in one of my college courses where i determined what state i should move to based on data for each state. This project employs SQL table variables, data manipulation, data calculation, and updates, along with complex joins and subqueries to extract and consolidate the data from various tables.
+-- This is a project I created to determine what state I should move to based on data. I created this using SQL Server while working on my degree in Data Analytics. 
+-- This project employs SQL table variables, data manipulation, data calculation, and updates, along with complex joins and subqueries to extract and consolidate the data from various tables.
 
 -- creating a table variable
 DECLARE @Demographics TABLE ([StateAbbrev] nvarchar(50)
