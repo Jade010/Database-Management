@@ -1,7 +1,13 @@
--- In this project I created a game store database and filled it with data. I used SQLite.
+-- This is a project I created while working on my Break Into Tech Data Analyst Certificate using SQLite.
+-- I created a database called Games where I made a single table and populated it. Once this table was populated I queried the table to answer some questions about the data.
 
+-- Creating Database
+CREATE DATABASE Games;
+
+-- Creating a table
 CREATE TABLE game_store (id INTEGER PRIMARY KEY, game_name TEXT, rating INTEGER, condition Text, price INTEGER);
 
+-- Populating the table
 INSERT INTO game_store VALUES (1, "LoZ: Ocarina of Time", 5, "Pre-Owned", 38);
 INSERT INTO game_store VALUES (2, "LoZ: Majora's Mask", 5, "Digital", 50);
 INSERT INTO game_store VALUES (3, "LoZ: Twilight Princess", 4.5, "Pre-Owned", 58);
@@ -18,16 +24,18 @@ INSERT INTO game_store VALUES (13, "LoZ: Skyward Sword", 5, "New", 60);
 INSERT INTO game_store VALUES (14, "LoZ: Spirit Tracks", 3, "Pre-Owned", 20);
 INSERT INTO game_store VALUES (15, "LoZ: Breath of the Wild", 4.5, "Digital", 64);
 
--- displays the database ordered by price
+-- Querying the table
+
+-- Q1. displays the database ordered by price
 SELECT * FROM game_store 
 ORDER BY price desc;
 
--- what is the avg price of items that are Digital?
+-- Q2. what is the avg price of items that are Digital?
 SELECT AVG(price) "avg digital price"
 FROM game_store 
 WHERE condition = 'Digital';
 
--- what are the highest rated games and their price?
+-- Q3. what are the highest rated games and their price?
 SELECT game_name, price
 FROM game_store 
 WHERE rating = 5 
