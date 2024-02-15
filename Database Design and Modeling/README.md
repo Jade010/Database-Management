@@ -9,6 +9,6 @@ This folder contains various database design and relatonal modeling projects I'v
 2. [Jade's Online Certificate Programs Database Design](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/JadesOnlineEducationProject)
      * This project creates a database for an online education platform where subscriptions are offered to learn various topics through instructr led courses. Students can earn a certificate by paying for the exam and passing.
 3. [Gourmet Food Club](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/GourmetFoodClub)
-     * This assignment comes from my introductory SQL course at WSU. It was a very simple project where we practiced creating tables & inserting into these tables in SQL as well as creating data models in Microsoft Visio.
-4. [2nd HW Assignment WSU](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/SecondProject)
-     * This is a practice assignment I worked on while at WSU. It is a continuation of the 1st HW assignment I have to continue practicing creating tables & inserting into these tables in SQL as well as creating data models in Microsoft Visio.
+     * This assignment is based on a Gourmet food club where I practiced creating tables & inserting into these tables in SQL as well as creating data models in Microsoft Visio.
+4. [FreightProject](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/FreightProject)
+     * This assignment is based on a freight table taken from a mail order catalog. It involves the creation of a database as well as inserting data into this database and querying.
