@@ -1,14 +1,22 @@
-The gourmet food club sells select food products via home parties. Aimee runs one of these
-clubs and wants to be able to track who has come to her parties and who has hosted a party for
-her. She keeps all contact information about her customers (e.g., name, phone, email, and
-address) and tracks the date and time of all parties she has given. A customer may attend many
-parties (and of course parties have many attendees) and a customer may also host many parties
-(but each party is only hosted by one person). Aimee also likes to keep track of who each
-customer’s spouse is (if they have one), but wants to keep an individual record of the customer
-and the spouse
+# Gourmet Food Club Database Design
+This is a project I created while at Washington State University. This project represents a database for a gourmet food club that wants to track their customers, hosts, and the parties they host. This project showcases my skills in designing an Entity-Relationship (ER) diagram using Visio, translating this to a relational database (SQL Server), and populating tables with data through SQL. 
 
-Create the database designed in answer to question 4. Create the tables in the
-database you use and copy and paste the table creation script here.
+# Background
+The Gourmet Food Club offers food products that they sell at various home parties. The owner, Aimee runs one of the many clubs and would like to track who attends her parties as well as who hosted a party for her. Customers can attend many parties and parties consist of many attendees. Customers may also host parties but parties can only be hosted by one person. Aimee also likes to keep track of who each customer's spouse is if they have one.
 
-Populate the tables created in question 5 with at least 3 rows per table. Copy and
-paste the code you used to populate the tables here
+## File Structure and Contents
+1. [GFCERModel.png](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/GourmetFoodClub/GFCERModel.png)
+    - This consists of the ER Diagram using Visio.
+2. [GFCRel.sql](https://github.com/Jade010/SQL/blob/main/Database%20Design%20and%20Modeling/GourmetFoodClub/GFCRel.sql)
+    - Contains the relational model based on the ER Diagram as well as the inserting of data into these tables.
+
+## Skills
+- **Database Design:** Application of structured methods to design a database tailored to the specific needs of a company.
+- **Entity-Relationship (ER) Modeling:** Creating detailed and accurate ER diagrams to represent complex data relationships and constraints.
+- **SQL Development** Use of SQL for database creation, population, relationships, and constraints.
+- **Schema Refinement and Normalization:** Ability to optimize database schema for performance and reliability.
+- **Physical Database Design:** Understanding of how to structure a database for efficient data storage and retrieval.
+
+Feel free to explore the files. Feedback and inquiries are always welcome!
+
+
