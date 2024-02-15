@@ -1,7 +1,7 @@
 # Database Design and Relational Modeling Portfolio
 
 ## Overview
-This folder contains various database design and modeling projects I've worked on. Each folder is a unique project showcasing my skills in retrieving business insights to create a database schema, the creation of an Entity-Relationship (ER) diagram based on this information, and then translating this to a relational database utilizing different SQL platforms. My work ranges from assignments I've worked on in my Data Analytics Degree to personal projects I worked on for fun. Below is a directory for each project and short description.
+This folder contains various database design and relatonal modeling projects I've worked on. Each folder is a unique project showcasing my skills in conducting business analysis, creating Entity-Relationship (ER) diagrams based on this information, translating this to a relational database utilizing different SQL platforms, and normalization. My work ranges from assignments I've worked on in my Data Analytics Degree to personal projects I worked on for fun. Below is a directory for each project and short description.
 
 ## Projects
 1. [Department of Licensing Database Design](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/DeptOfLicensingProject)
