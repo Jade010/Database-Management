@@ -1,6 +1,4 @@
--- This project comprises a series of SQL queries focused on sales analysis for the fictitious company AdventureWorks. 
--- The data is retrieved from the AdventureWorksDW2014 SQL Server sample database.
--- The queries are intended to deliver insights regarding the company's resellers, customers, and geographical sales distribution.
+-- This project comprises a series of SQL queries focused on sales analysis for the fictitious company AdventureWorks. The data is retrieved from the AdventureWorksDW2014 SQL Server sample database. The queries are intended to deliver insights regarding the company's resellers, customers, and geographical sales distribution.
 
 USE [AdventureWorksDW2014];
 
@@ -61,41 +59,8 @@ FROM [dbo].[FactResellerSales] as frs
       JOIN [dbo].[DimGeography] as g ON g.[GeographyKey] = r.[GeographyKey]
 WHERE [EnglishCountryRegionName] IN ('France', 'Germany', 'United Kingdom')
 GROUP BY [EnglishCountryRegionName]
-
-
-SELECT [EnglishCountryRegionName]
-      , SUM([SalesAmount]) as [Total revenue]
-      , COUNT(DISTINCT([SalesOrderNumber])) as [Total Invoices]
-      , COUNT([SalesOrderLineNumber])/COUNT(DISTINCT([SalesOrderNumber])) as [AVG line items Per Invoice]
-FROM [dbo].[FactResellerSales] as frs
-      JOIN [dbo].[DimReseller] as r ON r.[ResellerKey] = frs.[ResellerKey]
-      JOIN [dbo].[DimGeography] as g ON g.[GeographyKey] = r.[GeographyKey]
-WHERE [EnglishCountryRegionName] IN ('France', 'Germany', 'United Kingdom')
-GROUP BY [EnglishCountryRegionName]
 ORDER BY SUM([SalesAmount]) DESC
 
-
-SELECT [EnglishCountryRegionName]
-      , SUM([SalesAmount]) as [Total revenue]
-      , SUM([OrderQuantity]) as [Total # Units]
-      , COUNT(DISTINCT([SalesOrderNumber])) as [Total Invoices]
-      , COUNT([SalesOrderLineNumber])/COUNT(DISTINCT([SalesOrderNumber])) as [AVG line items Per Invoice]
-FROM [dbo].[FactResellerSales] as frs
-    JOIN [dbo].[DimReseller] as r ON r.[ResellerKey] = frs.[ResellerKey]
-    JOIN [dbo].[DimGeography] as g ON g.[GeographyKey] = r.[GeographyKey]
-WHERE [EnglishCountryRegionName] = 'United States'
-GROUP BY [EnglishCountryRegionName]
-
-SELECT [EnglishCountryRegionName]
-      , SUM([SalesAmount]) as [Total revenue]
-      , SUM([OrderQuantity]) as [Total # Units]
-      , COUNT(DISTINCT([SalesOrderNumber])) as [Total Invoices]
-      , COUNT([SalesOrderLineNumber])/COUNT(DISTINCT([SalesOrderNumber])) as [AVG line items Per Invoice]
-FROM [dbo].[FactResellerSales] as frs
-      JOIN [dbo].[DimReseller] as r ON r.[ResellerKey] = frs.[ResellerKey]
-      JOIN [dbo].[DimGeography] as g ON g.[GeographyKey] = r.[GeographyKey]
-GROUP BY [EnglishCountryRegionName]
-ORDER BY  COUNT([SalesOrderLineNumber])/COUNT(DISTINCT([SalesOrderNumber])) DESC
 
 
 -- Change to the FactInternetSales table to examine individual customers. Total the sales and units, # Invoices, and Invoice average by City in the United Kingdom
