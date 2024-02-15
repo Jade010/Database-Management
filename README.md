@@ -29,4 +29,4 @@ Structured Query Language (SQL) is one of my favorite programming languages to u
 
 
 ## End Notes
-Feel free to look at my various projects, each folder is its own unique project. I am always looking to improve my work and gain new skills so I often update this repository. I also love to get feedback and would love to connect to discuss any opportunities or just to make connections. [Connect with me on LinkedIn](https://www.linkedin.com/in/jade-aidoghie).
+Feel free to look at my various projects, each folder is a different category showcasing different skill and contains various different projects related to those skills. I am always looking to improve my work and gain new skills so I often update this repository. I also love to get feedback and would love to connect to discuss any opportunities or just to make connections. [Connect with me on LinkedIn](https://www.linkedin.com/in/jade-aidoghie).
