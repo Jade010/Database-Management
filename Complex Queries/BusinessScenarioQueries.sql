@@ -1,4 +1,4 @@
--- This repository provides a wide range of SQL queries that have been executed to extract meaningful insights and perform several operations on various hypothetical databases. These SQL queries demonstrate my capability to tackle real-world scenarios using SQL. Below, I have described the purpose and functionality of each query.
+-- This project provides a wide range of SQL queries that have been executed to extract meaningful insights and perform several operations on various hypothetical databases.
 
 -- 1 What is the average percentage markup of the MSRP on buyPrice?
 SELECT (avg((MSRP-buyprice)/buyPrice)*100) as average_percent_markup
