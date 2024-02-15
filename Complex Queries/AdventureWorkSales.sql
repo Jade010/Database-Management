@@ -1,4 +1,6 @@
--- This project comprises a series of SQL queries focused on sales analysis for the fictitious company AdventureWorks. The data is retrieved from the AdventureWorksDW2014 SQL Server sample database. The queries are intended to deliver insights regarding the company's resellers, customers, and geographical sales distribution.
+-- This project comprises a series of SQL queries focused on sales analysis for the fictitious company AdventureWorks. 
+-- The data is retrieved from the AdventureWorksDW2014 SQL Server sample database. 
+-- The queries are intended to deliver insights regarding the company's resellers, customers, and geographical sales distribution.
 
 USE [AdventureWorksDW2014];
 
