@@ -1,4 +1,4 @@
-# Department of Licensing Database Design
+# Friegth Database Design
 This is a small database design project I created while studying at Washington State University. The goal of this project was to create a database off of a freight table taken from a mail order catalog. I then needed to populate the tables and perform queries answering questions about the data. This project showcases my skills in designing an Entity-Relationship (ER) diagram based on company needs, translating this to a relational database (SQL Server), and querying. 
 
 ## File Structure and Contents
