@@ -27,5 +27,5 @@ Feel free to explore each folder and its contained projects for a deeper underst
 ## Contact
 I love to get feedback and would be happy to connect to discuss any opportunities or just to make connections.
 
-    Email: Jaderenneea@gmail.com
-    LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/jade-aidoghie).
+**Email:** Jaderenneea@gmail.com  
+**LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/jade-aidoghie).
