@@ -2,9 +2,7 @@
 ***Updated 11/11/2025***
 
 ## Overview
-This repository highlights my work as a contract Business Analyst for **Clay & Craft Studio**, a growing handmade ceramics business with both online and in-studio operations.  
-
-The project focuses on designing a structured **data infrastructure** and developing **business intelligence capabilities** to enable strategic decision-making and potential business expansion.  
+This repository highlights a faux scenario where I work as a contract Business Analyst for **Clay & Craft Studio**, a growing handmade ceramics business with both online and in-studio operations. The project focuses on designing a structured data infrastructure and developing business intelligence capabilities to enable strategic decision-making and potential business expansion.  
 
 > ⚠️ **Project Status:** Currently paused. Next updates will include completing Python scripts to populate tables, creating stored procedures for reporting, and developing PowerBI dashboards.  
 
