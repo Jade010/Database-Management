@@ -27,7 +27,7 @@ This repository showcases my skills in:
 <details>
 <summary>2. Python Scripts</summary>
 
-- Python scripts generate **INSERT statements** to populate SQL tables with realistic, scalable test data.  
+- Python scripts generate INSERT statements to populate SQL tables with realistic, scalable test data.  
 - Enables testing queries, reports, and dashboards with synthetic datasets.  
 - **Next Steps:** Additional scripts will be completed to fully populate all tables for testing and BI purposes.  
 
