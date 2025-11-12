@@ -17,6 +17,3 @@ This folder is a key component of my SQL/Database portfolio, focusing on the dif
      * This assignment is based on a Gourmet food club where I practiced creating tables & inserting into these tables in SQL as well as creating data models in Microsoft Visio.
 4. [FreightProject](https://github.com/Jade010/SQL/tree/main/Database%20Design%20and%20Modeling/FreightProject)
      * This assignment is based on a freight table taken from a mail order catalog. It involves the creation of a database as well as inserting data into this database and querying.
-
-## Contact
-For inquiries or further information about my database design projects, please reach out to me through my [Website](https://Jade010.github.io)
