@@ -1,7 +1,4 @@
 # Complex Queries Folder
 
 ## Overview
-This folder is dedicated to SQL and NoSQL queries I've performed on various databases. Databases are able to handle large volumes of data and allow us to quickly access this data and perform real time analysis. I have worked with different databases academically, professionally, and create my own personal SQL and NoSQL databases. I'm constantly looking to improve my techniques, how I formulate queries, and my automation skills. Some projects will evolve with time as I find new ways of improving my work and optimizing my queries.
-
-## Contact
-For more information about my projects or to discuss potential opportunities, please contact me through my [Website](http://Jade010.github.io).
+This folder focuses on SQL and NoSQL queries I’ve developed across a range of different databases. I’ve worked with different database systems in academic settings, professional environments, and through personal projects where I build my own SQL and NoSQL databases. I continually refine my approach—improving query formulation, optimization, and automation. Many of these projects will continue to evolve as I discover better ways to enhance performance and streamline my processes.
