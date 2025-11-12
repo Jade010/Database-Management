@@ -36,7 +36,7 @@ This repository showcases my skills in:
 <details>
 <summary>3. SQL Scripts</summary>
 
-- **Table creation scripts** reflecting the ERD design.  
+- Table creation scripts reflecting the ERD design.  
 - Includes primary & foreign keys, data types, constraints, and relationships.  
 - **Future Work:** Stored procedures will be developed to automate business reporting processes.  
 
@@ -44,15 +44,15 @@ This repository showcases my skills in:
 
 ## Key Responsibilities & Contributions
 
-- **Discovery & Requirements Gathering:** Conducted sessions with staff across production, retail, inventory, and fulfillment to understand workflows and data needs.  
-- **Data Architecture & Relational Modeling:** Designed a **robust relational database** representing:
+- **Discovery & Requirements Gathering:** Normally I would conducted sessions with staff across production, retail, inventory, and fulfillment to understand workflows and data needs. To mimic this I created a faux business with a detailed business model based on a business idea I would be interested in.
+- **Data Architecture & Relational Modeling:** Designed a relational database representing:
   - Handmade production processes  
   - Staff hierarchy & roles  
   - Product inventory & movement  
   - Order management & customer interactions  
   - Returns & defect tracking  
 - **Data Generation & Automation:** Developed Python scripts to create synthetic data for testing queries, reports, and KPIs.  
-- **Business Intelligence & Reporting:** Created PowerBI dashboards monitoring:
+- **Business Intelligence & Reporting:** In the future I plan to created PowerBI dashboards monitoring:
   - Return rates by ceramic maker  
   - Inventory turnover  
   - Customer feedback trends  
