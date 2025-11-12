@@ -1,9 +1,6 @@
 # Clay & Craft Studio: Business Analysis & Database Development
-
+***Updated 11/11/2025***
 ![Project Status](https://img.shields.io/badge/status-paused-yellow)
-![Python](https://img.shields.io/badge/python-3.11-blue)
-![SQL](https://img.shields.io/badge/SQL-Relational-green)
-![PowerBI](https://img.shields.io/badge/PowerBI-Data%20Viz-orange)
 
 ## Overview
 This repository highlights my work as a contract Business Analyst for **Clay & Craft Studio**, a growing handmade ceramics business with both online and in-studio operations.  
