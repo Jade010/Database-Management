@@ -1,60 +1,28 @@
 # Clay & Craft Studio: Business Analysis & Database Development
-***Updated 11/11/2025***
+***Last Updated:** 05/01/2026*
 
-## Overview
-This repository highlights a faux scenario where I work as a contract Business Analyst for **Clay & Craft Studio**, a growing handmade ceramics business with both online and in-studio operations. The project focuses on designing a structured data infrastructure and developing business intelligence capabilities to enable strategic decision-making and potential business expansion.  
+![Brand Logo](https://github.com/Jade010/Database-Management/blob/main/Clay%26Craft%20Studio%20DB/Documentation/Brand%20Logo.png)
 
-> ⚠️ **Project Status:** Currently paused. Next updates will include completing Python scripts to populate tables, creating stored procedures for reporting, and developing PowerBI dashboards.  
+## Business Problem
+Clay & Craft Studio is a growing handmade ceramics business with no formal data infrastructure. As the studio scales and adds artists, expands its product catalogue, and accumulates years of sales history; critical business information remains scattered and unstructured, making it difficult to answer even basic operational questions: Which products sell best? Which artists produce the highest-quality work? Are we pricing pieces correctly?
+As a "contracted" Business Analyst, the goal is to design and implement a centralized database that transforms their raw data into actionable insights. This will help Clay & Craft Studio make smarter decisions around staffing, inventory, pricing, and long-term growth strategy. 
 
-This repository showcases my skills in:  
-- Requirement gathering & discovery sessions  
-- Relational database modeling  
-- SQL table design & data insertion  
-- Python automation for data generation  
-- PowerBI dashboard development  
+## Repository Structure
+```
+Clay&Craft Studio DB/
+│
+├── README.md                        ← You are here. Welcome in!
+│
+├── data-generation/                 ← Database creation, inserts, python scripts for data generation
+│   ├── README.md
+│   ├── ClayCraftStudio.sql
+│   └── SQLInserts.py
+│
+├── Documentation/                    ← ERD, brand logos, documentation, data dictionaries
+│   ├── Clay & Craft ERD.png
+│   └── Brand Logo.png
+│
+└──  powerbi/                           ← Power BI report files and documentation (Not Started)
+    └── README.md
+```
 
-## Contents
-
-<details>
-<summary>1. Documentation</summary>
-
-- **Business Summary:** Overview of operations, objectives, and key business challenges.  
-- **Business Structure & Model:** Detailed workflows, staff hierarchy, production processes, inventory, sales channels, and order fulfillment.  
-- **ERD Diagram:** Entity-Relationship Diagram visually mapping entities, relationships, and attributes as the blueprint for the relational database.  
-
-</details>
-
-<details>
-<summary>2. Data Generation</summary>
-
-- Python scripts generate INSERT statements to populate SQL tables with realistic, scalable test data.  
-- Enables testing queries, reports, and dashboards with synthetic datasets.  
-- **Next Steps:** Additional scripts will be completed to fully populate all tables for testing and BI purposes.  
-
-</details>
-
-<details>
-<summary>3. SQL Scripts</summary>
-
-- Table creation scripts reflecting the ERD design.  
-- Includes primary & foreign keys, data types, constraints, and relationships.  
-- **Future Work:** Stored procedures will be developed to automate business reporting processes.  
-
-</details>
-
-## Key Responsibilities & Contributions
-
-- **Discovery & Requirements Gathering:** Normally I would conducted sessions with staff across production, retail, inventory, and fulfillment to understand workflows and data needs. To mimic this I created a faux business with a detailed business model based on a business idea I would be interested in.
-- **Data Architecture & Relational Modeling:** Designed a relational database representing:
-  - Handmade production processes  
-  - Staff hierarchy & roles  
-  - Product inventory & movement  
-  - Order management & customer interactions  
-  - Returns & defect tracking  
-- **Data Generation & Automation:** Developed Python scripts to create synthetic data for testing queries, reports, and KPIs.  
-- **Business Intelligence & Reporting:** In the future I plan to created PowerBI dashboards monitoring:
-  - Return rates by ceramic maker  
-  - Inventory turnover  
-  - Customer feedback trends  
-  - Overall operational efficiency  
-- **Strategic Recommendations:** Provided insights for improving production efficiency, inventory management, and assessing expansion opportunities.  
